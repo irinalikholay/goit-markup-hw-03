@@ -415,14 +415,6 @@ img {
 
      }
 
-     .button-item {
-        padding-top: 12px;
-        padding-bottom: 12px;
-        padding-left: 24px;
-        padding-right: 24px;
-        border: 1px solid #e7e9fc;
-        border-radius: 4px;
-     }
 
      .text-button {
         font-weight: 500;
@@ -433,6 +425,13 @@ img {
         background-color:var(--light-color);
         font-family: "Roboto", sans-serif;
         cursor: pointer;
+
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 24px;
+        padding-right: 24px;
+        border: 1px solid #e7e9fc;
+        border-radius: 4px;
     }
 
     .text-button:hover {
