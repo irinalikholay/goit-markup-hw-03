@@ -265,14 +265,29 @@ img {
 
 .main-section-team {
     background-color: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .team-menu {
     list-style: none;
+    display: flex;
+    gap: 24px;
+
 }
 
 .team-menu-item {
     background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.name-container {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
+
 }
 
 .team-title {
@@ -283,6 +298,7 @@ img {
     text-align: center;
     text-transform: capitalize;
     color: var(--dark-color);
+    margin-bottom: 72px;
 }
 
 .team-subtitle {
@@ -291,6 +307,9 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--dark-color);
+    text-align: center;
+    margin-bottom: 8px;
+
 }
 
 .team-text {
@@ -299,6 +318,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--text-color);
+    text-align: center; 
 }
 
 /** фууутер **/
