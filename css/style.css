@@ -473,6 +473,7 @@ img {
     }
 
     .photo-item {
+        display: flex;
         width: calc((100% - 48px) / 3); 
 
     }
